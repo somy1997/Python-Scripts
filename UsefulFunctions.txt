@@ -1,0 +1,76 @@
+https://docs.python.org/2/library/functions.html
+https://docs.scipy.org/doc/numpy-dev/user/quickstart.html
+https://www.python-course.eu/
+https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py
+https://www.python-course.eu/matplotlib.php
+
+Core Python:
+
+zip()
+
+
+Numpy:
+
+import numpy as np
+np.array(<list>)
+a.size
+a.itemsize
+a.shape
+a.ndim
+a.dtype
+a.reshape
+a.max()
+a.min()
+a.sum()
+np.sqrt(a)
+np.std(a)
+np.arange()
+np.linspace()
+Element wise matrix multiplication, addition, subtraction, division
+np.vstack()
+np.hstack()
+np.column_stack()
+np.pi
+np.sin(a) and other trigonometric functions
+np.exp(a)
+np.log(a)
+np.log10(a)
+np.may_share_memory()
+np.ones()
+np.zeros()
+np.copy()
+b = a.copy()
+a.flags
+np.identity()
+np.eye()
+np.get_printoptions()
+np.set_printoptions()
+a.ravel()
+a[:,np.newaxis]
+a[::-1]
+a.flat
+np.dot()
+np.mat()
+Broadcasting
+np.tile()
+a.flatten()
+np.concatenate()
+np.row_stack()
+np.dstack()
+np.absolute()
+np.sign()
+a.transpose()
+np.linalg.inv()
+np.random.random_integers()
+np.random.random or np.random.random_sample, both are same
+
+MatPlotLib:
+
+import matplotlib.pyplot as plt
+plt.plot()
+plt.show()
+
+Time:
+
+import time
+time.time()

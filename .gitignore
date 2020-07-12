@@ -1,0 +1,37 @@
+## .pb files ##
+**/*.pb
+
+## pycache ##
+**/__pycache__/
+
+## vscode ##
+**/.vscode/
+
+## Executables ##
+**/*.out
+
+## ghc files ##
+**/*.h.gch
+
+## temp files ##
+**/*temp*
+
+## .DS_Store ##
+**/*DS_Store*
+
+## Images ##
+**/*.jpg
+
+## Videos ##
+**/*.avi
+**/*.mp4
+
+## Debug Files ##
+**/Debug/
+
+## ipch files ##
+**/*.ipch
+
+# https://stackoverflow.com/a/34435207/7991684 = Removing files in gitignore.
+# https://code.likeagirl.io/how-to-undo-the-last-commit-393e7db2840b = Reverting last commit.
+# https://stackoverflow.com/questions/15606955/how-can-i-make-git-show-a-list-of-the-files-that-are-being-tracked/15606998 = Show list of tracked files
